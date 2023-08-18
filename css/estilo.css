@@ -12,7 +12,7 @@
 }
 
 body {
-  background-color: #f60083;
+  background-color: #2b0043;
   color: #ffffff;
   font-family: "Bricolage Grotesque", sans-serif;
   font-family: "Open Sans", sans-serif;
@@ -76,7 +76,7 @@ label, input {
 }
 
 .seccionB {
-  background-color: #b90078;
+  background-color: rgba(0, 0, 0, 0.4745098039);
   padding: 2rem;
   color: #ffffff;
 }
@@ -298,7 +298,7 @@ ul li a:hover {
     margin: auto;
   }
   .offcanvas.offcanvas-end {
-    background-color: #f60083 !important;
+    background-color: #2b0043 !important;
   }
   .offcanvas.offcanvas-end a {
     font-size: 2.5rem !important;
@@ -332,7 +332,7 @@ ul li a:hover {
   }
 }
 footer {
-  background-color: #f60083;
+  background-color: rgba(0, 0, 0, 0.4745098039);
   padding: 3rem;
   bottom: 0;
   left: 0;
@@ -358,7 +358,7 @@ footer ul li a:hover {
 }
 
 .offcanvas.offcanvas-end {
-  background-color: #b90078 !important;
+  background-color: rgba(0, 0, 0, 0.4745098039) !important;
 }
 .offcanvas.offcanvas-end a {
   font-size: 1.5rem;
@@ -368,7 +368,7 @@ footer ul li a:hover {
 }
 
 .bg-dark {
-  background-color: #b90078 !important;
+  background-color: rgba(0, 0, 0, 0.4745098039) !important;
 }
 
 .offcanvas-title {
