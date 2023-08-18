@@ -17,6 +17,7 @@
     }
 }
 
+
 .imagenServicio {
     border-radius: 10px;
     padding: 4px;
@@ -27,4 +28,11 @@
         filter: grayscale(0%);
         transform: rotate(180deg);
     }
+}
+
+.imagenServicioPortafolio {
+        border-radius: 10px;
+        padding: 4px;
+        max-width: 100%;
+        height: auto;
 }
