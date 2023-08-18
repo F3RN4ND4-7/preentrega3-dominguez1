@@ -1,0 +1,24 @@
+//MENU
+
+.offcanvas.offcanvas-end {
+    background-color: $color-fondo-secundario !important;
+    a {
+        font-size: 1.5rem;
+        &:hover {
+            color: $acento;
+        }
+        
+    }
+}
+
+.bg-dark {
+    background-color: $color-fondo-secundario !important;
+}
+
+.offcanvas-title {
+    color: $acento !important;
+}
+
+.navbar-toggler:hover {
+    color: $color-botones !important;
+}

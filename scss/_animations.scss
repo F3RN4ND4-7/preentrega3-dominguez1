@@ -1,0 +1,22 @@
+//ANIMACIONES
+
+.typo-change {
+    animation: TypoChange 5s ease-in infinite;
+}
+
+    @keyframes TypoChange {
+        0% {
+        font-family: 'Bricolage Grotesque', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        color: $acento;
+        }
+
+        50% {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: $complemento;
+        }
+
+        100% {
+            font-family: 'Montserrat', sans-serif;
+        }
+    }

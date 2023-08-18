@@ -1,0 +1,38 @@
+// HEADER
+
+@mixin preentrega {
+    text-decoration: none;
+    color: $color-fuentes;
+    font-size: 1.5rem;
+}
+
+
+.tituloPrincipal {
+    @include preentrega;
+
+    i{
+        font-size: 3rem;
+        color: $color-fuentes;
+    }
+    h1 {
+        display: inline-block;
+        color: $color-fuentes;
+        font-size: 2rem;
+        font-weight: 700;
+    }
+}
+
+ul {
+    display: flex;
+    list-style: none;
+
+    li {
+
+        a {
+            @include preentrega;
+            &:hover{
+                color: $color-botones-secundarios;
+            }
+        }
+    }
+}

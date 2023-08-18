@@ -1,0 +1,17 @@
+.accordion  {
+    --bs-accordion-bg: #969696 !important;
+    color: white !important;
+}
+
+.accordion-body {
+    color: white !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #240020 !important;
+    color: white !important;
+}
+
+.form-check {
+    padding: 0 !important;
+}

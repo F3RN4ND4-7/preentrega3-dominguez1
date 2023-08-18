@@ -1,0 +1,23 @@
+//FOOTER
+
+footer {
+    background-color: $color-fondo;
+    padding: 3rem;
+    bottom: 0;
+    left: 0;
+    position: relative;
+
+    ul {
+        justify-content: space-between;
+        display: flex;
+        list-style: none;
+        li {
+            a {
+                @include preentrega;
+                &:hover{
+                    color: $color-botones-secundarios;
+                }
+            }
+        }
+    }
+ }

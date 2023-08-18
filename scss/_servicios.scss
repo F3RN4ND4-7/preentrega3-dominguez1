@@ -1,0 +1,30 @@
+// SERVICIOS 
+
+.introServicios {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 3px solid $color-botones-secundarios;
+
+    h2 {
+        color: $color-fuentes;
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: center;
+
+    }
+}
+
+.imagenServicio {
+    border-radius: 10px;
+    padding: 4px;
+    max-width: 100%;
+    height: auto;
+    filter: grayscale(30%);
+    &:hover {
+        filter: grayscale(0%);
+        transform: rotate(180deg);
+    }
+}

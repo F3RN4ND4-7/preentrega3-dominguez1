@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <!-- css animate -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+            <!-- css aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- mi css -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body class="container-fluid">
+    <header>
+        <nav class="navbar navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand tituloPrincipal encabezado" href="index.html">
+                <i class="bi bi-book p-5"></i>Home</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">It's so good to have you here</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="funstuff.html">Fun Stuff</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact and info
+                      </a>
+                      <ul class="dropdown-menu d-block dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="contact.html">Let's meet</a></li>
+                        <li><a class="dropdown-item" href="portfolio.html">Resume</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="https://www.behance.net/fernandadominguez">Behance</a></li>
+                        </li>
+                        <li><a class="dropdown-item" href="https://www.linkedin.com/in/fernanda-dom%C3%ADnguez-dise%C3%B1o-design-mex/">Linked-in</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </nav>            
+    </header>
+    <section class="hero d-flex flex-column justify-content-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 text-center">
+                    <h2 class="animate__animated animate__zoomIn">Oh<span>Hi there</span></h2>
+                    <h1>I'm Fernanda Domínguez</h1>
+                    <p>An independent happy being, adaptable, flexible, proactive who loves teamwork, collaboration and learning..</p>
+                    <a class="typo-change" href="portfolio.html">Browse my work!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="servicios">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/perro-cachorro-feliz-sonriendo-sobre-fondo-purpura-aislado.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/portatil-barra-herramientas-busqueda-sitios-web-cuaderno-3d-icono-busqueda-internet-sobre-fondo-amarillo.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/perro-cachorro-feliz-sonriendo-sobre-fondo-purpura-aislado.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <footer>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="funstuff.html">FunStuff</a></li>
+        </ul>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
